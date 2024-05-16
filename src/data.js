@@ -1,13 +1,46 @@
 const text = [
-  `Jelly sweet roll jelly beans biscuit pie macaroon chocolate donut. Carrot cake caramels pie sweet apple pie tiramisu carrot cake. Marzipan marshmallow croissant tootsie roll lollipop. Cupcake lemon drops bear claw gummies. Jelly bear claw gummi bears lollipop cotton candy gummi bears chocolate bar cake cookie. Cupcake muffin danish muffin cookie gummies. Jelly beans tiramisu pudding. Toffee soufflé chocolate cake pastry brownie. Oat cake halvah sweet roll cotton candy croissant lollipop. Macaroon tiramisu chocolate bar candy candy carrot cake jelly sweet. Gummies croissant macaroon dessert. Chocolate cake dragée pie.`,
-  `Next level tbh everyday carry, blog copper mug forage kitsch roof party pickled hammock kale chips tofu. Etsy shoreditch 8-bit microdosing, XOXO viral butcher banh mi humblebrag listicle woke bicycle rights brunch before they sold out ramps. Twee shabby chic taiyaki flannel, enamel pin venmo vape four loko. Hexagon kale chips typewriter kitsch 8-bit organic plaid small batch keffiyeh ethical banh mi narwhal echo park cronut.`,
-  `Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit​​, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris. Hi mindless mortuis soulless creaturas, imo evil stalking monstra adventus resi dentevil vultus comedat cerebella viventium. Qui animated corpse, cricket bat max brucks terribilem incessu zomby. The voodoo sacerdos flesh eater, suscitat mortuos comedere carnem virus. Zonbi tattered for solum oculi eorum defunctis go lum cerebro. Nescio brains an Undead zombies. Sicut malus putrid voodoo horror. Nigh tofth eliv ingdead.`,
-  `Cat gets stuck in tree firefighters try to get cat down firefighters get stuck in tree cat eats firefighters' slippers kitty power ignore the squirrels, you'll never catch them anyway for what a cat-ass-trophy! or purr as loud as possible, be the most annoying cat that you can, and, knock everything off the table. Pretend you want to go out but then don't bite off human's toes, yet disappear for four days and return home with an expensive injury; bite the vet so catch eat throw up catch eat throw up bad birds. `,
-  `This opera's as lousy as it is brilliant! Your lyrics lack subtlety. You can't just have your characters announce how they feel. That makes me feel angry! Anyhoo, your net-suits will allow you to experience Fry's worm infested bowels as if you were actually wriggling through them.
-I just told you! You've killed me! Fry! Quit doing the right thing, you jerk! Michelle, I don't regret this, but I both rue and lament it. Morbo can't understand his teleprompter because he forgot how you say that letter that's shaped like a man wearing a hat.`,
-  `Airedale hard cheese mozzarella. Pecorino melted cheese port-salut emmental babybel cheese and wine melted cheese manchego. Everyone loves blue castello everyone loves fromage cheese slices airedale cheddar cream cheese. Bavarian bergkase who moved my cheese halloumi port-salut gouda jarlsberg ricotta rubber cheese. Stinking bishop smelly cheese brie.`,
-  `Salvia glossier subway tile, leggings mustache YOLO semiotics chia. Pitchfork tbh af blog church-key meggings vaporware PBR&B master cleanse post-ironic man bun pabst mustache letterpress synth. Snackwave raw denim godard, 3 wolf moon shaman offal kitsch unicorn live-edge selvage schlitz fashion axe vaporware drinking vinegar prism. Shabby chic tacos artisan, chambray chicharrones cardigan leggings typewriter af pop-up williamsburg meditation PBR&B viral. You probably haven't heard of them DIY jean shorts subway tile fashion axe bushwick kitsch tumeric cloud bread vaporware freegan franzen pork belly chicharrones banh mi.`,
-  `Man braid celiac synth freegan readymade, pitchfork fam salvia waistcoat lomo bitters gentrify four loko. Pitchfork semiotics post-ironic vegan. Tofu meditation microdosing hashtag semiotics venmo. Flexitarian vape tilde taiyaki. Prism poutine farm-to-table, messenger bag vegan taxidermy tattooed sartorial squid jean shorts fixie selvage trust fund vape.`,
-  `Rutters Plate Fleet boom chandler Brethren of the Coast handsomely lookout marooned brigantine knave. Buccaneer gangway jack rum loot spyglass line Jack Tar fore gaff. Gaff topmast scuttle ballast swab draught measured fer yer chains dance the hempen jig Chain Shot yardarm.`,
-];
-export default text;
+  `“The best among you is the one who doesn't harm others with their tongue and hands.” - Prophet Muhammad (peace be upon him)
+  “Kindness is a mark of faith, and whoever is not kind has no faith.” - Prophet Muhammad (peace be upon him)
+  “The strong person is not the one who can wrestle someone else down. The strong person is the one who can control himself when he is angry.” - Prophet Muhammad (peace be upon him)`,
+
+  `“Innovation distinguishes between a leader and a follower.” - Steve Jobs
+  “Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do.” - Steve Jobs
+  “Your time is limited, don't waste it living someone else's life.” - Steve Jobs`,
+
+  `“Education is the passport to the future, for tomorrow belongs to those who prepare for it today.” - Malcolm X
+  “A man who stands for nothing will fall for anything.” - Malcolm X
+  “Education is our passport to the future, for tomorrow belongs to the people who prepare for it today.” - Malcolm X`,
+
+  `“Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.” - Albert Schweitzer
+  “Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.” - Albert Schweitzer
+  “The purpose of human life is to serve, and to show compassion and the will to help others.” - Albert Schweitzer`,
+
+  `“Do not wait for leaders; do it alone, person to person.” - Mother Teresa
+  “Spread love everywhere you go. Let no one ever come to you without leaving happier.” - Mother Teresa
+  “Peace begins with a smile.” - Mother Teresa`,
+
+  `“The greatest glory in living lies not in never falling, but in rising every time we fall.” - Nelson Mandela
+  “It always seems impossible until it's done.” - Nelson Mandela
+  “Education is the most powerful weapon which you can use to change the world.” - Nelson Mandela`,
+
+  `“The only limit to our realization of tomorrow will be our doubts of today.” - Franklin D. Roosevelt
+  “Happiness is not in the mere possession of money; it lies in the joy of achievement, in the thrill of creative effort.” - Franklin D. Roosevelt
+  “The only thing we have to fear is fear itself.” - Franklin D. Roosevelt`,
+
+  `“Believe you can and you're halfway there.” - Theodore Roosevelt
+  “Do what you can, with what you have, where you are.” - Theodore Roosevelt
+  “Keep your eyes on the stars, and your feet on the ground.” - Theodore Roosevelt`,
+
+  `“It does not matter how slowly you go as long as you do not stop.” - Confucius
+  “Our greatest glory is not in never falling, but in rising every time we fall.” - Confucius
+  “Wheresoever you go, go with all your heart.” - Confucius`,
+
+  `“The true sign of intelligence is not knowledge but imagination.” - Albert Einstein
+  “Imagination is more important than knowledge. For knowledge is limited, whereas imagination embraces the entire world, stimulating progress, giving birth to evolution.” - Albert Einstein
+  “The only source of knowledge is experience.” - Albert Einstein`,
+
+  `“The journey of a thousand miles begins with one step.” - Lao Tzu
+  “Nature does not hurry, yet everything is accomplished.” - Lao Tzu
+  “When I let go of what I am, I become what I might be.” - Lao Tzu`
+]
+export default text

@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import data from './data'
 
+import { nanoid } from 'nanoid'
+
 const App = () => {
   const [totalCount, setTotalCount] = useState(1)
   const [totalParas, setTotalParas] = useState([])
@@ -29,7 +31,7 @@ const App = () => {
           id="amount"
           min="1"
           step="1"
-          max="8"
+          max="10"
           value={totalCount}
           onChange={e => setTotalCount(e.target.value)}
         />
@@ -42,7 +44,11 @@ const App = () => {
         </button>
       </form>
 
-      {totalParas}
+      <article className="lorem-text">
+        {totalParas.map((text, index) => {
+          return <p key={nanoid()}>{text}</p>
+        })}
+      </article>
     </section>
   )
 }
